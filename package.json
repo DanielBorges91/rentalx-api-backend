@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/DanielBorges91/rentalx-api-backend.git",
   "author": "Daniel Borges <danprog91@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
