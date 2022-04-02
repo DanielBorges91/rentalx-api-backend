@@ -48,10 +48,10 @@ class ImportCategoryUseCase {
     categories.map(async (category) => {
       const { name, description } = category;
 
-      const exitsCategory = this.categoriesRepository.findByName(name);
+      const exitsCategory = await this.categoriesRepository.findByName(name);
 
       if (!exitsCategory) {
-        this.categoriesRepository.create({
+        await this.categoriesRepository.create({
           name,
           description,
         });
