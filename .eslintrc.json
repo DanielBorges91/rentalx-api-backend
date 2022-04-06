@@ -52,14 +52,16 @@
         "warn",
         {
             "newlinesBetween": "always",
-            "groups": ["module", "/^@shared/", ["parent", "sibling", "index"]],
+            "groups": ["module", "/^@/", ["parent", "sibling", "index"]],
             "alphabetize": { "order": "asc", "ignoreCase": true }
         }
         ],
         "import/no-extraneous-dependencies": [
-        "error",
-        { "devDependencies": ["**/*.spec.js"] }
-        ],
+            "error",
+            {
+              "devDependencies": ["**/*.spec.ts", "jest.config.ts"]
+            }
+          ],
         "prettier/prettier": "error"
     },
     "settings": {
