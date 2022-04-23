@@ -27,7 +27,6 @@ export class CreateSpecificationsCars1649639628510
             default: "now()",
           },
         ],
-        foreignKeys: [],
       })
     );
 
