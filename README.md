@@ -40,7 +40,6 @@ API com Typescript para uma aplicação gerenciar o empréstimo de carros.
 
 **RF**
 - Deve ser possível cadastrar a imagem do carro.
-- Deve ser possível listar todos os carros.
 
 **RNF**
 - Utilizar o multer para upload dos arquivos.
